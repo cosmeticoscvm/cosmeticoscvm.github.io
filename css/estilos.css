@@ -1,0 +1,71 @@
+@import "mi-nav.css";
+@import "mi-footer.css";
+@import "listas.css";
+
+:root {
+  font-family: sans-serif;
+  --col-active: #4646462c;
+  --colorMiNav: white;
+}
+*{
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://images.ecestaticos.com/yAVRlIKV7kozVwaVEisZBePqOHE=/0x0:2272x1704/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F5db%2Fbdc%2Ff0e%2F5dbbdcf0edf22261f17be2a40466d6a7.jpg");
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+header {
+  text-align: center;
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("https://img.freepik.com/fotos-premium/fondo-estampado-rayas-colores-llamativos_53876-131961.jpg");
+  border-radius: 20%;
+}
+
+.herramientas {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  gap: 0.5rem;
+  color: black;
+  font-size: 20px;
+}
+
+header input {
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0.5rem 0;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+legend,
+p label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(163, 89, 4);
+}
+
+p label>* {
+  
+  display: block;
+  font-weight: normal;
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
